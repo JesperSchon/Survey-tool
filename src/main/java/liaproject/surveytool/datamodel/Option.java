@@ -3,21 +3,13 @@ package liaproject.surveytool.datamodel;
 import jakarta.persistence.*;
 
 @Entity
-public class Answer {
+public class Option {
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
-  private Long answerId;
-  private String textAnswer;
-
-  @ManyToOne
-  @JoinColumn(name = "user_id")
-  private User user;
+  private Long optionId;
+  private String optionText;
 
   @ManyToOne
   @JoinColumn(name = "question_id")
   private Question question;
-
-  @ManyToOne
-  @JoinColumn(name = "option_id")
-  private Option option;
 }
