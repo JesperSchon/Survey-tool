@@ -1,9 +1,6 @@
-package liaproject.surveytool.datamodel;
+package liaproject.surveytool.models;
 
 import jakarta.persistence.*;
-
-import java.util.ArrayList;
-import java.util.List;
 
 @Entity
 public class Question {
@@ -13,6 +10,6 @@ public class Question {
   private String questionText;
 
   @ManyToOne
-  @JoinColumn(name = "type_id")
+  @JoinColumn(name="type_id")
   private TypeOfAnswer type;
 }

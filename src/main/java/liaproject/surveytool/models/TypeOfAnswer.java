@@ -1,7 +1,6 @@
-package liaproject.surveytool.datamodel;
+package liaproject.surveytool.models;
 
 import jakarta.persistence.*;
-
 import java.util.List;
 
 @Entity

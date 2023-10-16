@@ -1,7 +1,6 @@
-package liaproject.surveytool.datamodel;
+package liaproject.surveytool.models;
 
 import jakarta.persistence.*;
-
 
 @Entity
 public class User {
@@ -16,4 +15,3 @@ public class User {
   @JoinColumn(name = "role_id")
   private Role role;
 }
-

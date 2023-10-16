@@ -1,4 +1,4 @@
-package liaproject.surveytool.datamodel;
+package liaproject.surveytool.models;
 
 import jakarta.persistence.*;
 
