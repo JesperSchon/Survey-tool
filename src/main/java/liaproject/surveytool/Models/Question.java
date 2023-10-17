@@ -1,7 +1,9 @@
-package liaproject.surveytool.models;
+package liaproject.surveytool.Models;
 
 import jakarta.persistence.*;
+import lombok.Data;
 
+@Data
 @Entity
 public class Question {
   @Id

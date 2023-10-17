@@ -1,4 +1,4 @@
-package liaproject.surveytool.repositories;
+package liaproject.surveytool.Repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

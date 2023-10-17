@@ -1,6 +1,6 @@
-package liaproject.surveytool.repositories;
+package liaproject.surveytool.Repositories;
 
-import liaproject.surveytool.models.User;
+import liaproject.surveytool.Models.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface UserRepository extends JpaRepository<User, Long> {

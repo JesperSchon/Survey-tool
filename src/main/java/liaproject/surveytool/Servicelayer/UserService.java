@@ -1,7 +1,8 @@
-package liaproject.surveytool.servicelayer;
+package liaproject.surveytool.Servicelayer;
 
-import liaproject.surveytool.models.User;
-import liaproject.surveytool.repositories.UserRepository;
+import liaproject.surveytool.Models.User;
+import liaproject.surveytool.Repositories.RoleRepository;
+import liaproject.surveytool.Repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -12,6 +13,10 @@ public class UserService {
 
   @Autowired
   private UserRepository userRepository;
+
+  @Autowired
+  private RoleRepository roleRepository;
+
 
   public User createUser(User user){
     return userRepository.save(user);

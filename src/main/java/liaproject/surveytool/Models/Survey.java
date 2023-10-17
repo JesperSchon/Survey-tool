@@ -1,9 +1,10 @@
-package liaproject.surveytool.models;
+package liaproject.surveytool.Models;
 
 import jakarta.persistence.*;
+import lombok.Data;
 
 import java.sql.Date;
-
+@Data
 @Entity
 public class Survey {
   @Id

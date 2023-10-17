@@ -1,8 +1,10 @@
-package liaproject.surveytool.models;
+package liaproject.surveytool.Models;
 
 import jakarta.persistence.*;
-import java.util.List;
+import lombok.Data;
 
+import java.util.List;
+@Data
 @Entity
 public class TypeOfAnswer {
   @Id
